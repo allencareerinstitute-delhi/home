@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <header>
+        <div class="logo">
+            <img src="./asset/allen-delhi-logo.jpg" alt="Allen Delhi Logo" style="height: 50px;">
+        </div>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Courses</a>
+            <a href="#">Contact</a>
+            <button id="sign-out-btn">Sign Out</button> 
+        </nav>
+    </header> -->
+    <header>
+        <div class="logo">
+            <img src="./asset/allen-delhi-logo.jpg" alt="Allen Delhi Logo" style="height: 50px;">
+        </div>
+        <!-- Hamburger Button -->
+        <button id="hamburger">&#9776;</button>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Courses</a>
+            <a href="#">Contact</a>
+            <button id="sign-in-btn"><a id="signout-btn" href="/index.html" >Sign Out</a></button> 
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1 class="student-name"><span>Naima Ahmad</span></h1>
+        <h2>Results</h2>
+        <div class="card">
+            <h3>Minor Test- Dec 11</h3>
+            <div class="test-results">
+                <p style="font-weight: bold; padding: 10px; background-color: #e0c9c9;">Your Score: 506/720 &#127942;</p>
+                <span id="remarks" style="color: rgb(16 5 1);">Well Done Naima &#128079; <br> Improvement is needed &#9997;
+                <br>Keep Doing  &#9996;</span>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <h2>Subject Wise Marks</h2>
+        <div class="course-cards">
+            <div class="course-card">
+                <img src="./asset/Biology.png" alt="JEE Course" />
+                <h3>Biology</h3>
+                <p style="font-weight: bold;" >266/360</p>
+            </div>
+            <div class="course-card">
+                <img src="./asset/chemistry.png" alt="NEET Course" />
+                <h3>Chemistry</h3>
+                <p style="font-weight: bold;">130/180</p>
+            </div>
+            <div class="course-card">
+                <img src="./asset/physics.png" alt="Foundation Course" />
+                <h3>Physics</h3>
+                <p style="font-weight: bold;">110/180</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="./asset/footer-banner.png" alt="Allen Delhi Third Banner" style="width: 100%; height: auto;">
+    </div>
+
+    <div class="footer">
+        © 2024 ALLEN Career Institute. All rights reserved.
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
